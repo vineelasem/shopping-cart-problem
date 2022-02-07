@@ -1,0 +1,23 @@
+{
+  "name": "hebcart",
+  "version": "1.0.0",
+  "description": "shopping cart",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/app.js"
+  },
+  "keywords": [
+    "cart"
+  ],
+  "author": "Vineela",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.15"
+  }
+}
